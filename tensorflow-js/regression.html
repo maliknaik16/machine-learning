@@ -76,22 +76,22 @@
             }));
 
             // Output layer
-            // model.add(tf.layers.dense({
-            //     units: 1,
-            // }));
-
-            model.add(tf.layers.dropout(0.2));
-
-            model.add(tf.layers.dense({
-                units: 50,
-            }));
-
-            model.add(tf.layers.dropout(0.2));
-
             model.add(tf.layers.dense({
                 units: 1,
-                activation: 'tanh',
-            }))
+            }));
+
+            // model.add(tf.layers.dropout(0.2));
+
+            // model.add(tf.layers.dense({
+            //     units: 50,
+            // }));
+
+            // model.add(tf.layers.dropout(0.2));
+
+            // model.add(tf.layers.dense({
+            //     units: 1,
+            //     activation: 'sigmoid',
+            // }));
 
             return model;
         }
@@ -135,13 +135,13 @@
         async function trainModel(model, inputs, labels) {
             // Compile the model with Adam optimizer and mean squared error loss.
             model.compile({
-                optimizer: tf.train.adam(),
+                optimizer: tf.train.adam(0.02),
                 loss: tf.losses.meanSquaredError,
                 metrics: ['mse'],
             });
 
-            const batchSize = 50;
-            const epochs = 40;
+            const batchSize = 32;
+            const epochs = 50;
 
             // Train and return the model history.
             return await model.fit(inputs, labels, {
