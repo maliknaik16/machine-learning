@@ -10,10 +10,10 @@ from sklearn.metrics import accuracy_score
 iris = load_iris()
 
 # Split the dataset into training and testing
-X_train, X_test, y_train, y_test = train_test_split(iris.data, iris.target, test_size=0.2, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(iris.data, iris.target, test_size=0.2, random_state=0)
 
 # Initialize the classifier.
-classifier = DecisionTreeClassifier()
+classifier = DecisionTreeClassifier(max_leaf_nodes=4, random_state=0)
 # classifier = RandomForestClassifier()
 # classifier = KNeighborsClassifier()
 
@@ -24,4 +24,4 @@ classifier.fit(X_train, y_train)
 predictions = classifier.predict(X_test)
 
 # Calculate and print the accuracy score.
-print(accuracy_score(y_test, predictions))
+print(accuracy_score(y_true=y_test, y_pred=predictions))
