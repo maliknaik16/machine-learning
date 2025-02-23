@@ -6,6 +6,8 @@ This repository contains the notebooks and scripts I've developed throughout my 
 
 ## Notebooks 
 
+**Glossary/Notes**: [![Open in Notebook](https://img.shields.io/badge/Open_Notebook-gray?style=flat&logo=jupyter&logoColor=red&logoSize=auto)](/Notes.ipynb)
+
 ### PyTorch Basics
 
 | **Title**                                                                                                       | **Notebook**                                                                                                                                                                             | **Date**       |
