@@ -4,6 +4,38 @@ This repository contains the notebooks and scripts I've developed throughout my 
 
 [badge_url]: https://img.shields.io/badge/Open_Notebook-gray?style=flat&logo=jupyter&logoColor=red&logoSize=auto
 
+## Getting Started
+To get started with running these notebooks. Follow these steps:
+
+Step 1: Clone the repo
+
+```bash
+git clone https://github.com/maliknaik16/machine-learning.git
+```
+
+Step 2: Activate the virtual environment
+```bash
+poetry shell
+```
+
+Step 3: Install all the dependencies
+```bash
+poetry install
+```
+
+Step 4: Add the environment to notebook
+
+```bash
+poetry run python -m ipykernel install --user --name=ml-notebooks
+```
+
+Step 5: Run jupyter notebook and use the `ml-notebooks` kernel
+
+```bash
+poetry run jupyter notebook
+```
+
+
 ## Notebooks 
 
 **Glossary/Notes**: [![Open in Notebook](https://img.shields.io/badge/Open_Notebook-gray?style=flat&logo=jupyter&logoColor=red&logoSize=auto)](/Notes.ipynb)
