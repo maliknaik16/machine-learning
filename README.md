@@ -40,7 +40,7 @@ poetry run jupyter notebook
 
 **Glossary/Notes**: [![Open in Notebook](https://img.shields.io/badge/Open_Notebook-gray?style=flat&logo=jupyter&logoColor=red&logoSize=auto)](/Notes.ipynb)
 
-### PyTorch Basics
+### Basics
 
 | **Title**                                                                                                       | **Notebook**                                                                                                                                                                             | **Date**       |
 |-----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|
@@ -51,7 +51,7 @@ poetry run jupyter notebook
 | [PyTorch - Model Optimization](/foundations/01_Basics/pytorch_model_optimization.ipynb)               | [![Open in Notebook](https://img.shields.io/badge/Open_Notebook-gray?style=flat&logo=jupyter&logoColor=red&logoSize=auto)](/foundations/01_Basics/pytorch_model_optimization.ipynb) | 02/22/2025     |
 
 
-### PyTorch Intermediate
+### Intermediate
 
 | **Title**                                                                                                                            | **Notebook**                                                                                                                                                                             | **Date**   |
 |--------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
