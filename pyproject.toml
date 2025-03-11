@@ -20,6 +20,12 @@ evaluate = "^0.4.3"
 accelerate = "^1.4.0"
 ipywidgets = "^8.1.5"
 scikit-learn = "^1.6.1"
+num2words = "^0.5.14"
+inflect = "^7.5.0"
+onnx = "^1.17.0"
+onnxruntime = "^1.21.0"
+tf2onnx = "^1.16.1"
+ray = "2.43.0"
 
 
 [build-system]
