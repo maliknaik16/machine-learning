@@ -6,9 +6,9 @@ authors = ["Malik Naik <maliknaik16@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "3.12.3"
 torch = "^2.6.0"
-torchvision = "^0.21.0"
+torchvision = "0.22.0"
 ipykernel = "^6.29.5"
 matplotlib = "^3.10.0"
 numpy = "^2.2.3"
@@ -24,8 +24,15 @@ num2words = "^0.5.14"
 inflect = "^7.5.0"
 onnx = "^1.17.0"
 onnxruntime = "^1.21.0"
-tf2onnx = "^1.16.1"
 ray = "2.43.0"
+onnxscript = "^0.2.2"
+seaborn = "^0.13.2"
+diffusers = "^0.33.1"
+sentencepiece = "^0.2.0"
+protobuf = "^6.31.1"
+memory-profiler = "^0.61.0"
+gputil = "^1.4.0"
+ollama = "^0.5.1"
 
 
 [build-system]
